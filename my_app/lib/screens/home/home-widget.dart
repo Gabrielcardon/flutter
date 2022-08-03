@@ -60,6 +60,61 @@ class HomeWidget extends State<HomePage> {
           SizedBox(
             height: 40,
           ),
+
+          Text("Digite seu login",
+              textAlign: TextAlign.justify,
+              style: TextStyle(fontSize: 19, color: Colors.white)),
+
+          SizedBox(
+            height: 40,
+          ),
+          TextFormField(
+            decoration: const InputDecoration(
+              contentPadding: EdgeInsets.symmetric(horizontal: 20),
+              fillColor: Colors.blue,
+              filled: true,
+              enabledBorder: OutlineInputBorder(
+                borderSide: BorderSide(color: Colors.amberAccent),
+                borderRadius: BorderRadius.all(Radius.circular(50)),
+              ),
+              focusedBorder: OutlineInputBorder(
+                borderSide: BorderSide(color: Colors.amberAccent),
+                borderRadius: BorderRadius.all(Radius.circular(50)),
+              ),
+              hintText: "login",
+              labelStyle: TextStyle(
+                color: Colors.black,
+                fontWeight: FontWeight.w400,
+                fontSize: 22,
+              ),
+            ),
+          ),
+
+          SizedBox(
+            height: 40,
+          ),
+
+          TextFormField(
+            decoration: const InputDecoration(
+              contentPadding: EdgeInsets.symmetric(horizontal: 20),
+              fillColor: Colors.blue,
+              filled: true,
+              enabledBorder: OutlineInputBorder(
+                borderSide: BorderSide(color: Colors.amberAccent),
+                borderRadius: BorderRadius.all(Radius.circular(50)),
+              ),
+              focusedBorder: OutlineInputBorder(
+                borderSide: BorderSide(color: Colors.amberAccent),
+                borderRadius: BorderRadius.all(Radius.circular(50)),
+              ),
+              hintText: "Senha",
+              labelStyle: TextStyle(
+                color: Colors.black,
+                fontWeight: FontWeight.w400,
+                fontSize: 22,
+              ),
+            ),
+          )
           // GridDashboard()
         ],
       ),
