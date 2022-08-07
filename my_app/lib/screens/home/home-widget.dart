@@ -11,7 +11,7 @@ class HomeWidget extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color(0xff392850),
+      backgroundColor: Colors.grey,
       body: Column(
         children: <Widget>[
           SizedBox(
@@ -63,7 +63,7 @@ class HomeWidget extends State<HomePage> {
 
           Text("Digite seu login",
               textAlign: TextAlign.justify,
-              style: TextStyle(fontSize: 19, color: Colors.white)),
+              style: TextStyle(fontSize: 19, color: Colors.black)),
 
           SizedBox(
             height: 40,
@@ -71,7 +71,7 @@ class HomeWidget extends State<HomePage> {
           TextFormField(
             decoration: const InputDecoration(
               contentPadding: EdgeInsets.symmetric(horizontal: 20),
-              fillColor: Colors.blue,
+              fillColor: Colors.white,
               filled: true,
               enabledBorder: OutlineInputBorder(
                 borderSide: BorderSide(color: Colors.amberAccent),
@@ -97,7 +97,7 @@ class HomeWidget extends State<HomePage> {
           TextFormField(
             decoration: const InputDecoration(
               contentPadding: EdgeInsets.symmetric(horizontal: 20),
-              fillColor: Colors.blue,
+              fillColor: Colors.white,
               filled: true,
               enabledBorder: OutlineInputBorder(
                 borderSide: BorderSide(color: Colors.amberAccent),
